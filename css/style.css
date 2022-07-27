@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    padding: o 30px;
+    margin: auto;
+}
+
+.header {
+    padding-top: 79px;
+    background-color: #EEEFF1;
+    height: 700px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black
+}
+
+
+nav li {
+    list-style-position: inside;
+    padding: 15px;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+}
+
+.top-menu li.active {
+    color: #34547A;
+}
+
+.header-heading {
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 60px;
+    margin-top: 162px;
+    margin-left: 40px
+}
+
+.header-content p {
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 40px;
+    margin-bottom: 65px;
+}
+
+.header-content button {
+    background-color: #34547A;
+    text-align: center;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin-left: 40px;
+    color: #FFFFFF;
+    margin-bottom: 141px;
+}
+
+.description {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.descrip {
+    padding-top: 112px;
+    padding-bottom: 50px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 26.25px;
+    margin-bottom: 100px;
+}
+
+.icons {
+    background-color: #34547A;
+    /*height: 250px;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cards {
+    margin: 50px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cards>li {
+    width: calc(100%/6);
+    display: inline-block;
+    /*vertical-align: top;*/
+    margin-right: -4px;
+    /*padding: 0 16px 32px;*/
+}
+
+img {
+    display: block;
+    height: 50px;
+    width: 47px;
+}
+
+.title {
+    color: white;
+    weight: 400;
+    font-size: 16px;
+}
+
+.inter {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #EEEFF1;
+    text-align: center;
+}
+
+.inter p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.25px;
+}
+
+.inter iframe {
+    padding-top: 57px;
+    padding-bottom: 100px;
+    width: 1110px;
+    height: 600px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-left: 200px;
+    background-color: #34547A;
+}
+
+.footer h3 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 21px;
+}
+
+.footer p {
+    color: white;
+    padding-bottom: 50px;
+    font-size: 13px;
+}
